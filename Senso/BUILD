@@ -18,6 +18,7 @@ ios_application(
     ],
     minimum_os_version = "15.0",
     infoplists = ["Info.plist"],
+    launch_storyboard = "Base.lproj/LaunchScreen.storyboard",
     visibility = [
         "//visibility:public",
     ],
